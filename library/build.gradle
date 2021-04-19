@@ -1,8 +1,9 @@
 apply plugin: 'com.android.library'
 
-group = 'com.github.GrapixLeGrand'
+//group = 'com.github.GrapixLeGrand'
 
 android {
+
     compileSdkVersion 30
 
     defaultConfig {
@@ -24,9 +25,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.13.2'
 }
+
