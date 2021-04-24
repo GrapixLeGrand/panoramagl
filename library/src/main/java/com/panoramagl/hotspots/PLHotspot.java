@@ -377,6 +377,7 @@ public class PLHotspot extends PLSceneElementBase implements PLIHotspot {
 
     @Override
     protected void translate(GL10 gl) {
+        super.translate(gl);
     }
 
     /**
